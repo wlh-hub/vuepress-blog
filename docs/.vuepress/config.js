@@ -1,6 +1,6 @@
 const pluginConf = require('../../config/pluginConfig.js');
 const navConf = require('../../config/navConfig.js');
-const sidebarConf = require('../../config/sidebarConfig.js');
+// const sidebarConf = require('../../config/sidebarConfig.js');
 
 module.exports = {
     title: '个人主页', //网站标题
@@ -27,7 +27,7 @@ module.exports = {
         repo: 'https://www.cnblogs.com/mmit/',  // 链接的地址
         repoLabel: '博客园',  // 链接的名称
         nav: navConf,
-        sidebar:sidebarConf,
+        // sidebar:sidebarConf,
         sidebarDepth: 2, // 侧边栏显示深度，默认为1，即显示一级标题
     },
 

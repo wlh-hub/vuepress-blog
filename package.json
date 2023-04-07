@@ -12,7 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.9"
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
     "vuepress-plugin-comment": "^0.7.3"
