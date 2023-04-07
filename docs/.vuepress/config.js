@@ -1,3 +1,4 @@
+const secureConf = require('../../config/secureinfo.js');
 module.exports = {
     title: '个人主页', //网站标题
     description: '泼猴的琐碎博客记录', //网站描述
@@ -24,8 +25,8 @@ module.exports = {
             // options选项中的所有参数，会传给Valine的配置
             options: {
               el: '#valine-vuepress-comment',
-              appId: 'jM6HMokrZqUuR3MVxEgA7bAA-gzGzoHsz',
-              appKey: 'wHHqTftB0affWPsgsvFZWuMH',
+              appId: secureConf.leancloud_appId,
+              appKey: secureConf.leancloud_appKey,
               placeholder: '同道中人，文明留言...',  // 评论框占位提示符
               lang: 'zh-cn', // 支持中文
             }
