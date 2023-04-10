@@ -16,6 +16,7 @@
     "vuepress-plugin-auto-sidebar": "^2.3.2"
   },
   "dependencies": {
-    "vuepress-plugin-comment": "^0.7.3"
+    "vuepress-plugin-comment": "^0.7.3",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3"
   }
 }

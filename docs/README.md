@@ -22,3 +22,8 @@ Github|知乎|博客
 - Node牛刀小试
 - 有可能你并不需要服务器
 - 有可能你并不需要服务器个人服务器运维
+
+```javascript
+// A highlighted block
+var foo = '测试代码块';
+```
