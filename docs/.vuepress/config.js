@@ -3,6 +3,7 @@ const navConf = require('../../config/navConfig.js');
 // const sidebarConf = require('../../config/sidebarConfig.js');
 
 module.exports = {
+    base:'/vuepress-blog/',
     title: '个人主页', //网站标题
     description: '泼猴的琐碎博客记录', //网站描述
     head: [
